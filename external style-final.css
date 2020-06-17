@@ -27,7 +27,7 @@ header {
 }
 
 .pic {
-position: fixed;
+position: absolute;
  left:470px;
  
 }
