@@ -47,6 +47,8 @@ a:hover{
 .title2{
 	font-size: 25px;
 	margin-left:20%;
+	width:300px;
+	text-align: center
 
 }
 /*照片*/
