@@ -124,6 +124,18 @@ button:active {
 	
 }
 
+.ques{
+	font-size:30px;
+}
+.ans{
+	font-size: 25px;
+	color:black;
+}
+.poin{
+	font-size:60px;
+	color:red;
+}
+
 body{
 	background-color: #fff3cd;
 	font-family: 'Noto Sans TC', sans-serif;

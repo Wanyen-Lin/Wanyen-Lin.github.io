@@ -25,6 +25,7 @@ function myFunction1()
 	X.setAttribute('type','button');
 	Y.setAttribute('id','no'); 
 	Z.setAttribute('id','dontknow');
+	btn2.setAttribute('class','ques');
 	
 	btn1.innerHTML = "問題一";
 	btn3.innerHTML = "      ";
@@ -84,6 +85,7 @@ function myFunction2()
 	X.setAttribute('type','button');
 	Y.setAttribute('id','no'); 
 	Z.setAttribute('id','dontknow');
+	btn2.setAttribute('class','ques');
 	
 	btn1.innerHTML = "問題二";
 	btn3.innerHTML = "      ";
@@ -140,6 +142,7 @@ function myFunction3()
 	X.setAttribute('type','button');
 	Y.setAttribute('id','no'); 
 	Z.setAttribute('id','dontknow');
+	btn2.setAttribute('class','ques');
 	
 	btn1.innerHTML = "問題三";
 	btn3.innerHTML = "      ";
@@ -196,6 +199,7 @@ function myFunction4()
 	X.setAttribute('type','button');
 	Y.setAttribute('id','no'); 
 	Z.setAttribute('id','dontknow');
+	btn2.setAttribute('class','ques');
 	
 	btn1.innerHTML = "問題四";
 	btn3.innerHTML = "      ";
@@ -252,6 +256,7 @@ function myFunction5()
 	X.setAttribute('type','button');
 	Y.setAttribute('id','no'); 
 	Z.setAttribute('id','dontknow');
+	btn2.setAttribute('class','ques');
 	
 	btn1.innerHTML = "問題五";
 	btn3.innerHTML = "      ";
@@ -308,6 +313,7 @@ function myFunction6()
 	X.setAttribute('type','button');
 	Y.setAttribute('id','no'); 
 	Z.setAttribute('id','dontknow');
+	btn2.setAttribute('class','ques');
 	
 	btn1.innerHTML = "問題六";
 	btn3.innerHTML = "      ";
@@ -364,6 +370,7 @@ function myFunction7()
 	X.setAttribute('type','button');
 	Y.setAttribute('id','no'); 
 	Z.setAttribute('id','dontknow');
+	btn2.setAttribute('class','ques');
 	
 	btn1.innerHTML = "問題七";
 	btn3.innerHTML = "      ";
@@ -419,6 +426,7 @@ function myFunction8()
 	X.setAttribute('type','button');
 	Y.setAttribute('id','no'); 
 	Z.setAttribute('id','dontknow');
+	btn2.setAttribute('class','ques');
 	
 	btn1.innerHTML = "問題八";
 	btn3.innerHTML = "      ";
@@ -464,6 +472,8 @@ function showfinalgrade()
 	var btn1 = document.createElement("p");
 	var btn2 = document.createElement("p");
 	var btn3 = document.createElement("p");
+	btn3.setAttribute('class','ans');
+	btn2.setAttribute('class','poin');
 
 
 	btn1.innerHTML = "總分";
